@@ -1,0 +1,130 @@
+2025-03-25 14:48:31,348 - WARNING - Skip binding of 'generate_solution' to model due to model override policy.
+2025-03-25 14:48:54,050 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-03-25 14:48:54,053 - ERROR - LLM call error: Error code: 404 - {'error': {'message': 'The model `llama-3-70b-4096` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+2025-03-25 14:48:54,053 - ERROR - Input validation error: Expecting value: line 1 column 1 (char 0)
+2025-03-25 14:51:32,407 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-03-25 14:51:32,418 - ERROR - LLM call error: Error code: 404 - {'error': {'message': 'The model `llama-3-70b-4096` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+2025-03-25 14:51:32,419 - ERROR - Input validation error: Expecting value: line 1 column 1 (char 0)
+2025-03-25 14:51:38,965 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-03-25 14:51:38,970 - ERROR - LLM call error: Error code: 404 - {'error': {'message': 'The model `llama-3-70b-4096` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+2025-03-25 14:51:38,971 - ERROR - Input validation error: Expecting value: line 1 column 1 (char 0)
+2025-03-25 14:51:41,618 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-03-25 14:51:41,619 - ERROR - LLM call error: Error code: 404 - {'error': {'message': 'The model `llama-3-70b-4096` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+2025-03-25 14:51:41,619 - ERROR - Input validation error: Expecting value: line 1 column 1 (char 0)
+2025-03-25 14:52:27,917 - WARNING - Skip binding of 'generate_solution' to model due to model override policy.
+2025-03-25 14:52:38,178 - INFO - Finished processing state INITIAL_GREETING exit callbacks.
+2025-03-25 14:52:38,178 - INFO - Finished processing state CONTEXT_UNDERSTANDING enter callbacks.
+2025-03-25 14:52:38,178 - INFO - Finished processing state CONTEXT_UNDERSTANDING exit callbacks.
+2025-03-25 14:52:38,179 - INFO - Finished processing state LLM_ANALYSIS enter callbacks.
+2025-03-25 14:59:52,027 - WARNING - Skip binding of 'generate_solution' to model due to model override policy.
+2025-03-25 15:00:10,005 - INFO - Finished processing state INITIAL_GREETING exit callbacks.
+2025-03-25 15:00:10,006 - INFO - Finished processing state CONTEXT_UNDERSTANDING enter callbacks.
+2025-03-25 15:00:10,006 - INFO - Finished processing state CONTEXT_UNDERSTANDING exit callbacks.
+2025-03-25 15:00:10,006 - INFO - Finished processing state LLM_ANALYSIS enter callbacks.
+2025-03-25 15:00:22,199 - INFO - Generating solution for input: what is promt enginnering
+2025-03-25 15:00:22,200 - INFO - Calling LLM with prompt: 
+        Generate a comprehensive solution for the following user input:
+        User Query: what is promt enginnering
+        
+        Provide a clear, concise response that directly addresses the query.
+        
+2025-03-25 15:00:22,573 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-03-25 15:00:22,573 - ERROR - LLM call error: Error code: 404 - {'error': {'message': 'The model `llama-3-8b-8192` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+2025-03-25 15:00:22,574 - INFO - Generated response from LLM: I'm having trouble processing your request. Could you please rephrase?
+2025-03-25 15:00:22,575 - INFO - Generating solution for input: what is promt enginnering
+2025-03-25 15:00:22,575 - INFO - Calling LLM with prompt: 
+        Generate a comprehensive solution for the following user input:
+        User Query: what is promt enginnering
+        
+        Provide a clear, concise response that directly addresses the query.
+        
+2025-03-25 15:00:22,617 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-03-25 15:00:22,618 - ERROR - LLM call error: Error code: 404 - {'error': {'message': 'The model `llama-3-8b-8192` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+2025-03-25 15:00:22,618 - INFO - Generated response from LLM: I'm having trouble processing your request. Could you please rephrase?
+2025-03-25 15:01:00,515 - INFO - Generating solution for input: what is capital of delhi
+2025-03-25 15:01:00,516 - INFO - Calling LLM with prompt: 
+        Generate a comprehensive solution for the following user input:
+        User Query: what is capital of delhi
+        
+        Provide a clear, concise response that directly addresses the query.
+        
+2025-03-25 15:01:00,653 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-03-25 15:01:00,654 - ERROR - LLM call error: Error code: 404 - {'error': {'message': 'The model `llama-3-8b-8192` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+2025-03-25 15:01:00,654 - INFO - Generated response from LLM: I'm having trouble processing your request. Could you please rephrase?
+2025-03-25 15:01:00,655 - INFO - Generating solution for input: what is capital of delhi
+2025-03-25 15:01:00,655 - INFO - Calling LLM with prompt: 
+        Generate a comprehensive solution for the following user input:
+        User Query: what is capital of delhi
+        
+        Provide a clear, concise response that directly addresses the query.
+        
+2025-03-25 15:01:00,708 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-03-25 15:01:00,709 - ERROR - LLM call error: Error code: 404 - {'error': {'message': 'The model `llama-3-8b-8192` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+2025-03-25 15:01:00,709 - INFO - Generated response from LLM: I'm having trouble processing your request. Could you please rephrase?
+2025-03-25 15:03:07,900 - WARNING - Skip binding of 'generate_solution' to model due to model override policy.
+2025-03-25 15:03:26,824 - INFO - Finished processing state INITIAL_GREETING exit callbacks.
+2025-03-25 15:03:26,824 - INFO - Finished processing state CONTEXT_UNDERSTANDING enter callbacks.
+2025-03-25 15:03:26,824 - INFO - Finished processing state CONTEXT_UNDERSTANDING exit callbacks.
+2025-03-25 15:03:26,824 - INFO - Finished processing state LLM_ANALYSIS enter callbacks.
+2025-03-25 15:03:41,434 - INFO - Generating solution for input: What is 5 + 3?
+2025-03-25 15:03:41,435 - INFO - Calling LLM with prompt: 
+        Generate a comprehensive solution for the following user input:
+        User Query: What is 5 + 3?
+        
+        Provide a clear, concise response that directly addresses the query.
+        
+2025-03-25 15:03:42,237 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-03-25 15:03:42,238 - ERROR - LLM call error: Error code: 404 - {'error': {'message': 'The model `llama-3-8b-8192` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+2025-03-25 15:03:42,238 - INFO - Generated response from LLM: I'm having trouble processing your request. Could you please rephrase?
+2025-03-25 15:03:42,238 - INFO - Generating solution for input: What is 5 + 3?
+2025-03-25 15:03:42,239 - INFO - Calling LLM with prompt: 
+        Generate a comprehensive solution for the following user input:
+        User Query: What is 5 + 3?
+        
+        Provide a clear, concise response that directly addresses the query.
+        
+2025-03-25 15:03:42,334 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-03-25 15:03:42,335 - ERROR - LLM call error: Error code: 404 - {'error': {'message': 'The model `llama-3-8b-8192` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+2025-03-25 15:03:42,336 - INFO - Generated response from LLM: I'm having trouble processing your request. Could you please rephrase?
+2025-03-25 15:07:07,439 - WARNING - Skip binding of 'generate_solution' to model due to model override policy.
+2025-03-25 15:07:25,621 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-03-25 15:07:25,622 - ERROR - LLM call error: Error code: 404 - {'error': {'message': 'The model `llama-3-70b-4096` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+2025-03-25 15:07:25,622 - ERROR - Input validation error: Expecting value: line 1 column 1 (char 0)
+2025-03-25 15:09:51,984 - WARNING - Skip binding of 'generate_solution' to model due to model override policy.
+2025-03-25 15:10:04,080 - INFO - Finished processing state INITIAL_GREETING exit callbacks.
+2025-03-25 15:10:04,081 - INFO - Finished processing state CONTEXT_UNDERSTANDING enter callbacks.
+2025-03-25 15:10:04,081 - INFO - Finished processing state CONTEXT_UNDERSTANDING exit callbacks.
+2025-03-25 15:10:04,081 - INFO - Finished processing state LLM_ANALYSIS enter callbacks.
+2025-03-25 15:10:13,068 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-25 15:10:13,225 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-25 15:10:51,368 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-25 15:10:51,819 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-25 15:17:06,704 - WARNING - Skip binding of 'generate_solution' to model due to model override policy.
+2025-03-25 15:17:23,761 - INFO - Finished processing state INITIAL_GREETING exit callbacks.
+2025-03-25 15:17:23,762 - INFO - Finished processing state CONTEXT_UNDERSTANDING enter callbacks.
+2025-03-25 15:17:23,762 - INFO - Finished processing state CONTEXT_UNDERSTANDING exit callbacks.
+2025-03-25 15:17:23,762 - INFO - Finished processing state LLM_ANALYSIS enter callbacks.
+2025-03-25 15:21:30,122 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-25 15:21:30,304 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-25 15:23:02,428 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-25 15:23:02,969 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-25 15:23:44,348 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-25 15:23:44,750 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-25 15:24:08,027 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-25 15:24:08,404 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-25 15:24:48,236 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-25 15:24:48,551 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-25 15:25:16,478 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-25 15:25:16,729 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-25 15:25:27,510 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-25 15:25:27,756 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-25 15:25:31,852 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-25 15:25:32,098 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-25 16:06:30,530 - WARNING - Skip binding of 'generate_solution' to model due to model override policy.
+2025-03-25 16:06:37,875 - INFO - Finished processing state INITIAL_GREETING exit callbacks.
+2025-03-25 16:06:37,875 - INFO - Finished processing state CONTEXT_UNDERSTANDING enter callbacks.
+2025-03-25 16:06:37,875 - INFO - Finished processing state CONTEXT_UNDERSTANDING exit callbacks.
+2025-03-25 16:06:37,875 - INFO - Finished processing state LLM_ANALYSIS enter callbacks.
+2025-03-25 16:06:44,098 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-25 16:06:44,116 - INFO - Chatbot Response: It seems like you've just said hello. How can I assist you today? Are you looking for help with something specific or would you like me to provide some general information? Please let me know how I can assist you further.
+2025-03-25 16:06:45,162 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
